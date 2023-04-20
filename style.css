@@ -408,3 +408,36 @@ body{
   padding: 13px;
   width: 255px;
 }
+.viewer{
+  display: none;
+}
+.a:hover .viewer {
+  display: block;
+  height: auto;
+  max-width: 90%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu{
+  background-color: rgb(62, 187, 245);;
+}
+button {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+ }
+ 
+ button:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ button:active {
+  transform: translate(0em, 0.2em);
+ }
